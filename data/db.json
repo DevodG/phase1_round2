@@ -1,0 +1,397 @@
+{
+  "puzzles": [
+    {
+      "_id": "puzzle_1",
+      "name": "Mr. Bean",
+      "hint1": "Which audio became famous despite its main character barely speaking at all?",
+      "acceptedAnswers": [
+        "mr bean",
+        "mr. bean",
+        "bean"
+      ],
+      "rewardLetter": "R",
+      "audioUrl": "/mrbean.mp3"
+    },
+    {
+      "_id": "puzzle_2",
+      "name": "Motu Patlu",
+      "hint1": "Which audio is instantly recognizable because one particular food seems more important than the entire plot?",
+      "acceptedAnswers": [
+        "motu patlu",
+        "motu",
+        "samosa"
+      ],
+      "rewardLetter": "M",
+      "audioUrl": "/motupatlu.mp3"
+    },
+    {
+      "_id": "puzzle_3",
+      "name": "Amul Advertisement",
+      "hint1": "Which audio feels familiar long before the product itself is mentioned?",
+      "acceptedAnswers": [
+        "amul",
+        "amul girl",
+        "amul ad",
+        "amul advertisement"
+      ],
+      "rewardLetter": "N",
+      "audioUrl": "/amul.mp3"
+    },
+    {
+      "_id": "puzzle_4",
+      "name": "Dairy Milk",
+      "hint1": "Which audio is remembered for a celebration that breaks an unspoken social expectation?",
+      "acceptedAnswers": [
+        "dairy milk",
+        "cadbury",
+        "dairy milk ad",
+        "mother in law"
+      ],
+      "rewardLetter": "E",
+      "audioUrl": "/dairymilk.mp3"
+    },
+    {
+      "_id": "puzzle_5",
+      "name": "Dheevara – Bahubali",
+      "hint1": "Which audio feels like someone attempting something impossible long before any words explain why?",
+      "acceptedAnswers": [
+        "dheevara",
+        "bahubali",
+        "baahubali",
+        "dheevera",
+        "dhivara"
+      ],
+      "rewardLetter": "I",
+      "audioUrl": "/dheevara.mp3"
+    },
+    {
+      "_id": "puzzle_6",
+      "name": "Ben 10",
+      "hint1": "Which audio is remembered for a change that happens much faster than it should?",
+      "acceptedAnswers": [
+        "ben 10",
+        "ben ten",
+        "omnitrix"
+      ],
+      "rewardLetter": "C",
+      "audioUrl": "/ben10.mp3"
+    },
+    {
+      "_id": "puzzle_7",
+      "name": "Chhota Bheem",
+      "hint1": "Which audio belongs to a character whose confidence often exceeds his size?",
+      "acceptedAnswers": [
+        "chhota bheem",
+        "chota bheem",
+        "bheem"
+      ],
+      "rewardLetter": "I",
+      "audioUrl": "/chhotabheem.mp3"
+    },
+    {
+      "_id": "puzzle_8",
+      "name": "Shinchan",
+      "hint1": "Which audio became iconic because behaving normally was never really an option?",
+      "acceptedAnswers": [
+        "shinchan",
+        "shin chan"
+      ],
+      "rewardLetter": "S",
+      "audioUrl": "/shinchan.mp3"
+    },
+    {
+      "_id": "puzzle_9",
+      "name": "Highway",
+      "hint1": "Which audio sounds more like a journey inward than a journey on a road?",
+      "acceptedAnswers": [
+        "highway",
+        "highway movie",
+        "ar rahman",
+        "Patakha Guddi"
+      ],
+      "rewardLetter": "E",
+      "audioUrl": "/highway.mp3"
+    }
+  ],
+  "settings": {
+    "googleFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeGtdxtsWq0IC33nvuBUnxrSW7Wp_femr6m0MsitcTSs8qCgw/viewform?usp=publish-editor",
+    "teamIdFieldId": "1210080097",
+    "answerFieldId": "1285742345",
+    "targetWord": "REMINISCE"
+  },
+  "teams": [
+    {
+      "name": "ValidationTestTeam",
+      "teamId": "g4oppuwu",
+      "startTime": "2026-06-09T12:25:36.444Z",
+      "solvedPuzzleIds": [
+        "puzzle_1"
+      ],
+      "attempts": 1,
+      "collectedLetters": [
+        "R"
+      ],
+      "isCompleted": false
+    },
+    {
+      "name": "abc",
+      "teamId": "afq2pxjl",
+      "startTime": "2026-06-09T12:26:26.163Z",
+      "solvedPuzzleIds": [],
+      "attempts": 1,
+      "collectedLetters": [],
+      "isCompleted": true,
+      "endTime": "2026-06-09T12:27:47.804Z"
+    },
+    {
+      "name": "m",
+      "teamId": "emeo6bs8",
+      "startTime": "2026-06-09T12:29:14.936Z",
+      "solvedPuzzleIds": [],
+      "attempts": 1,
+      "collectedLetters": [],
+      "isCompleted": false
+    },
+    {
+      "name": "abc",
+      "teamId": "bvgmpuwk",
+      "startTime": "2026-06-09T13:10:38.438Z",
+      "solvedPuzzleIds": [
+        "puzzle_1"
+      ],
+      "attempts": 0,
+      "collectedLetters": [
+        "R"
+      ],
+      "isCompleted": true,
+      "endTime": "2026-06-09T13:10:56.804Z"
+    },
+    {
+      "name": "hello",
+      "teamId": "euai7qxp",
+      "startTime": "2026-06-09T17:06:15.548Z",
+      "solvedPuzzleIds": [
+        "puzzle_1",
+        "puzzle_2"
+      ],
+      "attempts": 2,
+      "collectedLetters": [
+        "R",
+        "E"
+      ],
+      "isCompleted": false
+    },
+    {
+      "name": "b",
+      "teamId": "dcyma3cy",
+      "startTime": "2026-06-09T17:37:03.958Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": false
+    },
+    {
+      "name": "v",
+      "teamId": "dgvoi9zg",
+      "startTime": "2026-06-09T17:37:23.089Z",
+      "solvedPuzzleIds": [
+        "puzzle_3"
+      ],
+      "attempts": 0,
+      "collectedLetters": [
+        "N"
+      ],
+      "isCompleted": true,
+      "endTime": "2026-06-09T17:38:34.651Z"
+    },
+    {
+      "name": "a",
+      "teamId": "y2nfpehb",
+      "startTime": "2026-06-09T17:44:18.705Z",
+      "solvedPuzzleIds": [
+        "puzzle_1",
+        "puzzle_2",
+        "puzzle_4",
+        "puzzle_5",
+        "puzzle_6",
+        "puzzle_7",
+        "puzzle_8",
+        "puzzle_9",
+        "puzzle_3"
+      ],
+      "attempts": 15,
+      "collectedLetters": [
+        "R",
+        "M",
+        "E",
+        "I",
+        "C",
+        "I",
+        "S",
+        "E",
+        "N"
+      ],
+      "isCompleted": true
+    },
+    {
+      "name": "x",
+      "teamId": "fda0bbfk",
+      "startTime": "2026-06-10T04:20:13.799Z",
+      "solvedPuzzleIds": [
+        "puzzle_1",
+        "puzzle_2",
+        "puzzle_3",
+        "puzzle_4",
+        "puzzle_5",
+        "puzzle_6",
+        "puzzle_7",
+        "puzzle_9"
+      ],
+      "attempts": 3,
+      "collectedLetters": [
+        "R",
+        "M",
+        "N",
+        "E",
+        "I",
+        "C",
+        "I",
+        "E"
+      ],
+      "isCompleted": true,
+      "endTime": "2026-06-10T04:31:13.862Z"
+    },
+    {
+      "name": "asd",
+      "teamId": "9vv2nxxs",
+      "startTime": "2026-06-10T04:40:01.992Z",
+      "solvedPuzzleIds": [
+        "puzzle_1"
+      ],
+      "attempts": 0,
+      "collectedLetters": [
+        "R"
+      ],
+      "isCompleted": false
+    },
+    {
+      "name": "idk",
+      "teamId": "7wijrwvv",
+      "startTime": "2026-06-11T07:22:19.870Z",
+      "solvedPuzzleIds": [
+        "puzzle_1"
+      ],
+      "attempts": 0,
+      "collectedLetters": [
+        "R"
+      ],
+      "isCompleted": true,
+      "endTime": "2026-06-11T07:22:38.273Z"
+    },
+    {
+      "name": "IDK",
+      "teamId": "anb0tt9e",
+      "startTime": "2026-06-11T08:01:11.677Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": true,
+      "endTime": "2026-06-11T08:01:31.017Z"
+    },
+    {
+      "name": "idk",
+      "teamId": "kgqhqsva",
+      "startTime": "2026-06-11T11:53:43.500Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": false
+    },
+    {
+      "name": "idk",
+      "teamId": "ckre-w1z",
+      "startTime": "2026-06-11T12:02:15.130Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": true,
+      "endTime": "2026-06-11T12:02:25.539Z"
+    },
+    {
+      "name": "idk",
+      "teamId": "fnthdwxn",
+      "startTime": "2026-06-11T12:24:57.930Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": true,
+      "endTime": "2026-06-11T13:07:24.239Z"
+    },
+    {
+      "name": "idk",
+      "teamId": "x2vioin4",
+      "startTime": "2026-06-11T14:00:12.070Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": true,
+      "endTime": "2026-06-11T14:23:47.234Z"
+    },
+    {
+      "name": "dfghj",
+      "teamId": "tkiqqzba",
+      "startTime": "2026-06-11T15:21:28.145Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": true,
+      "endTime": "2026-06-11T15:21:36.060Z"
+    },
+    {
+      "name": "hdj",
+      "teamId": "uum7mh9f",
+      "startTime": "2026-06-11T15:30:44.377Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": true,
+      "endTime": "2026-06-11T15:30:51.502Z"
+    },
+    {
+      "name": "ghj",
+      "teamId": "sfsq5frj",
+      "startTime": "2026-06-11T15:43:47.811Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": false
+    },
+    {
+      "name": "jff",
+      "teamId": "fo0e19ze",
+      "startTime": "2026-06-11T15:44:28.854Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": false
+    },
+    {
+      "name": "hjnm",
+      "teamId": "wcfzrn89",
+      "startTime": "2026-06-11T15:44:46.093Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": false
+    },
+    {
+      "name": "fghj",
+      "teamId": "zno1v6ri",
+      "startTime": "2026-06-11T15:51:33.274Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": false
+    }
+  ]
+}
