@@ -392,6 +392,16 @@
       "attempts": 0,
       "collectedLetters": [],
       "isCompleted": false
+    },
+    {
+      "name": "ijk",
+      "teamId": "mhjlwnke",
+      "startTime": "2026-06-11T18:39:34.202Z",
+      "solvedPuzzleIds": [],
+      "attempts": 0,
+      "collectedLetters": [],
+      "isCompleted": true,
+      "endTime": "2026-06-11T18:39:44.480Z"
     }
   ]
 }

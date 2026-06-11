@@ -1,18 +1,25 @@
-import { promises as fs } from 'fs';
-import path from 'path';
+import { db } from './firebaseAdmin';
 
-const DB_PATH = path.join(process.cwd(), 'data', 'db.json');
+const DOC_ID = 'data/db';
 
-export async function readData() {
+export async function readData(): Promise<any> {
   try {
-    const data = await fs.readFile(DB_PATH, 'utf8');
-    return JSON.parse(data);
+    const doc = await db.doc(DOC_ID).get();
+    if (doc.exists) {
+      return doc.data();
+    } else {
+      return { puzzles: [], settings: { googleFormUrl: '', teamIdFieldId: '', answerFieldId: '' }, teams: [] };
+    }
   } catch (error) {
-    console.error("Error reading db.json:", error);
-    return { puzzles: [], settings: { googleFormUrl: '', teamIdFieldId: '', answerFieldId: '' } };
+    console.error("Error reading from Firestore:", error);
+    return { puzzles: [], settings: { googleFormUrl: '', teamIdFieldId: '', answerFieldId: '' }, teams: [] };
   }
 }
 
 export async function writeData(data: Record<string, unknown>) {
-  await fs.writeFile(DB_PATH, JSON.stringify(data, null, 2));
+  try {
+    await db.doc(DOC_ID).set(data);
+  } catch (error) {
+    console.error("Error writing to Firestore:", error);
+  }
 }
