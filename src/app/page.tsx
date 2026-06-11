@@ -7,7 +7,8 @@ import { motion } from 'framer-motion';
 
 export default function LandingPage() {
   const [introFinished, setIntroFinished] = useState(false);
-  const [teamName, setTeamName] = useState("");
+  const [fullName, setFullName] = useState("");
+  const [contactNumber, setContactNumber] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const router = useRouter();
@@ -56,7 +57,7 @@ export default function LandingPage() {
       const res = await fetch("/api/team/join", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ teamName }),
+        body: JSON.stringify({ fullName, contactNumber }),
       });
 
       const data = await res.json();
@@ -112,14 +113,26 @@ export default function LandingPage() {
           
           <form onSubmit={handleSubmit} className="space-y-6 flex flex-col w-full">
             <div className="relative flex flex-col gap-2">
-              <label className="text-[10px] text-[#3A6EA5] uppercase tracking-[0.2em] font-black ml-1 italic">Squad Designation</label>
+              <label className="text-[10px] text-[#3A6EA5] uppercase tracking-[0.2em] font-black ml-1 italic">Full Name</label>
               <input
                 type="text"
                 required
-                value={teamName}
-                onChange={(e) => setTeamName(e.target.value)}
+                value={fullName}
+                onChange={(e) => setFullName(e.target.value)}
                 className="w-full bg-[#EFEBE9] border-2 border-[#D7CCC8] rounded px-5 py-4 text-[#3E2723] placeholder:text-[#A1887F]/30 focus:outline-none focus:border-[#3A6EA5] focus:bg-white transition-all duration-300 shadow-[inset_2px_2px_5px_rgba(0,0,0,0.05)] font-sans italic font-bold"
-                placeholder="Enter Squad Name..."
+                placeholder="Enter your Full Name..."
+              />
+            </div>
+
+            <div className="relative flex flex-col gap-2">
+              <label className="text-[10px] text-[#3A6EA5] uppercase tracking-[0.2em] font-black ml-1 italic">Contact Number</label>
+              <input
+                type="text"
+                required
+                value={contactNumber}
+                onChange={(e) => setContactNumber(e.target.value)}
+                className="w-full bg-[#EFEBE9] border-2 border-[#D7CCC8] rounded px-5 py-4 text-[#3E2723] placeholder:text-[#A1887F]/30 focus:outline-none focus:border-[#3A6EA5] focus:bg-white transition-all duration-300 shadow-[inset_2px_2px_5px_rgba(0,0,0,0.05)] font-sans italic font-bold"
+                placeholder="Enter your Contact Number..."
               />
             </div>
 
